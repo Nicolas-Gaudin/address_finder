@@ -1,1 +1,35 @@
 # address_finder
+
+## my setup
+
+- Ubuntu 22.04
+- python 3.10.6
+- pip 22.0.2
+
+library used in this 'project' :
+```wx```
+
+## Getting Started
+
+Run the app:
+```
+python3 address_finder.py
+```
+Tap your memory address in hexadecimal format.
+
+Example :
+If your address is ```0x0054 3210``` , tap ```543210``` in the field.
+
+## Considered cache configuration
+
+| Parameter                     | #  |
+|-------------------------------|----|
+| Address width                 | 22 |
+| Number of set                 | 16 |
+| Number of word per cache line | 4  |
+
+## Next upgrades 
+
+- Ask user his cache config and address width
+  
+
