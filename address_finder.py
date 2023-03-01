@@ -3,7 +3,7 @@ import wx.grid as gridlib
 
 class MyFrame(wx.Frame):    
     def __init__(self):
-        super().__init__(parent=None, title='Address finder', size=(400,200))
+        super().__init__(parent=None, title='Address finder', size=(380,220))
         font = wx.Font(10, wx.DEFAULT, wx.NORMAL, wx.BOLD)
         self.panel = wx.Panel(self)        
         self.my_sizer = wx.BoxSizer(wx.VERTICAL)   
@@ -11,7 +11,7 @@ class MyFrame(wx.Frame):
         self.my_sizer.Add(self.lblname, 0, wx.ALL | wx.CENTER, 0)     
         self.text_ctrl = wx.TextCtrl(self.panel)
         self.my_sizer.Add(self.text_ctrl, 0, wx.ALL | wx.CENTER, 0)        
-        my_btn = wx.Button(self.panel, label='Update')
+        my_btn = wx.Button(self.panel, wx.ID_ANY, label='Update')
         my_btn.Bind(wx.EVT_BUTTON, self.on_press)
         self.my_sizer.Add(my_btn, 0, wx.ALL | wx.CENTER, 5) 
 
