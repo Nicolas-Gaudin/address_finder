@@ -6,13 +6,13 @@
 - python 3.10.6
 - pip 22.0.2
 
-library used in this 'project' :
-```wx```
-
 ## Getting Started
-
-Run the app:
+Install dependencies:
+```bash
+pip3 install -r requirements.txt    
 ```
+Run the app:
+```bash
 python3 address_finder.py
 ```
 Tap your memory address in hexadecimal format.
