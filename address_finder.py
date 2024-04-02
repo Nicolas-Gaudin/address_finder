@@ -1,3 +1,14 @@
+"""
+Description: 
+Author: Nicolas Gaudin
+Date Created: Feb 27, 2023
+Date Modified: April 02, 2024
+Version: 1.0
+Python Version: 3.10.12
+Dependencies: wx
+License: MIT License
+"""
+
 import wx
 import wx.grid as gridlib
 
